@@ -1,0 +1,34 @@
+body, html
+{
+    height: 1500px; 
+}
+.header
+{
+    background-color: #1F2937;
+    height: 450px; 
+    width: 100%;
+    color: #f9faf8;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.header-logo
+{
+
+}
+.header-title
+{
+    align-self: center;
+}
+.header-links
+{
+    color: #f9faf8;
+    font-size: 25px;
+}
+a
+{
+    text-decoration: none;
+    color: #f9faf8;
+}
