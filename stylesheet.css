@@ -10,22 +10,39 @@ body, html
     color: #f9faf8;
     font-size: 35px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
 }
 .header-logo
 {
-
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 24px;
 }
 .header-title
 {
-    align-self: center;
+    font-weight: bolder;
+    font-size: 48px;
+    
 }
 .header-links
 {
+    align-self: flex-start;
+    justify-self: flex-end;
     color: #f9faf8;
-    font-size: 25px;
+    font-size: 18px;
+
+
+}
+.header-image
+{
+    align-self: center;
+}
+.header-paragraph
+{
+    align-self: center;
+    font-size: 18px;
+    overflow-wrap: break-word;
 }
 a
 {
