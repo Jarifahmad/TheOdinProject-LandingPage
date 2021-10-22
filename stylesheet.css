@@ -5,41 +5,53 @@ body, html
 .header
 {
     background-color: #1F2937;
-    height: 450px; 
+    height: 600px; 
     width: 100%;
     color: #f9faf8;
     font-size: 35px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: flex-start;
 }
 .header-logo
 {
-    align-self: flex-start;
+    position: relative;
+    left: 13.8%;
+    top: 7%;
     font-weight: bold;
     font-size: 24px;
 }
 .header-title
 {
+    position: relative;
+    left: 6.3%;
+    bottom: 7%;
     font-weight: bolder;
     font-size: 48px;
-    
+    align-self: center;
 }
 .header-links
 {
-    align-self: flex-start;
-    justify-self: flex-end;
+    position: relative;
+    left: 53.4%;
+    top: 7%;
     color: #f9faf8;
     font-size: 18px;
-
-
+    white-space: nowrap;
+    word-spacing: 30px;
 }
 .header-image
 {
     align-self: center;
+    position: relative;
+    top: 22%;
+    left: 28%;
+    
 }
 .header-paragraph
 {
+    position: relative;
+    right: 18%;
+    top: 10%;
     align-self: center;
     font-size: 18px;
     overflow-wrap: break-word;
@@ -48,4 +60,14 @@ a
 {
     text-decoration: none;
     color: #f9faf8;
+}
+.image-placeholder
+{
+    background-color: grey;
+    position: relative;
+    top: 25%;
+    right: 14.7%;
+    height: 50%;
+    width: 35%;
+    align-self: flex-start;
 }
