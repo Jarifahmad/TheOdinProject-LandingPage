@@ -82,6 +82,13 @@ a
 .middle-header
 {
     position: relative;
+    align-self: flex-start;
+}
+.middle-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box-container
 {
@@ -93,7 +100,8 @@ a
 {
     width: 120px;
     height: 100px;
-    border: 15px solid black;
+    border: 6px solid black;
+    border-radius: 35px;
     padding: 50px;
     margin: 20px;
 }
@@ -101,7 +109,8 @@ a
 {
     width: 120px;
     height: 100px;
-    border: 15px solid black;
+    border: 6px solid black;
+    border-radius: 35px;
     padding: 50px;
     margin: 20px;
 }
@@ -109,7 +118,8 @@ a
 {
     width: 120px;
     height: 100px;
-    border: 15px solid black;
+    border: 6px solid black;
+    border-radius: 35px;
     padding: 50px;
     margin: 20px;
 }
@@ -117,7 +127,8 @@ a
 {
     width: 120px;
     height: 100px;
-    border: 15px solid black;
+    border: 6px solid black;
+    border-radius: 35px;
     padding: 50px;
     margin: 20px;
 }
