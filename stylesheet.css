@@ -4,6 +4,22 @@ body, html
     padding: 0;
     margin: 0;
 }
+.navbar-whole
+{
+    position: relative;
+    left: 60%;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li
+{
+    float: left;
+}
 .header
 {
     background-color: #1F2937;
@@ -72,6 +88,12 @@ a
     height: 50%;
     width: 35%;
     align-self: flex-start;
+    background-image: url(images/nartuto-new.jpg);
+    border: 6px solid orangered;
+    border-radius: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .top-middle
 {
@@ -104,6 +126,7 @@ a
     border-radius: 35px;
     padding: 50px;
     margin: 20px;
+    background-image: url(images/sasuke.jpeg);
 }
 .middle-box-2
 {
@@ -132,3 +155,4 @@ a
     padding: 50px;
     margin: 20px;
 }
+
