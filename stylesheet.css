@@ -6,19 +6,24 @@ body, html
 }
 .navbar-whole
 {
-    position: relative;
-    left: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    color: #f9faf8;
+    font-size: 18px;
+    white-space: nowrap;
+    word-spacing: 30px;
 }
 ul
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-li
-{
-    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
 }
 .header
 {
@@ -28,7 +33,6 @@ li
     color: #f9faf8;
     font-size: 35px;
     display: flex;
-    justify-content: flex-start;
 }
 .header-logo
 {
@@ -46,24 +50,6 @@ li
     font-weight: bolder;
     font-size: 48px;
     align-self: center;
-}
-.header-links
-{
-    position: relative;
-    left: 53.4%;
-    top: 7%;
-    color: #f9faf8;
-    font-size: 18px;
-    white-space: nowrap;
-    word-spacing: 30px;
-}
-.header-image
-{
-    align-self: center;
-    position: relative;
-    top: 22%;
-    left: 28%;
-    
 }
 .header-paragraph
 {
@@ -155,4 +141,3 @@ a
     padding: 50px;
     margin: 20px;
 }
-
