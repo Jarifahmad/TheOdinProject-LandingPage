@@ -33,23 +33,25 @@ ul
     color: #f9faf8;
     font-size: 35px;
     display: flex;
+    justify-content: space-around;
 }
-.header-logo
+.header-logo /*this is the "welcome to naruto world"*/
 {
     position: relative;
-    left: 13.3%;
-    top: 7%;
+    display: flex;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 24px;
 }
-.header-title
+.header-title /*this is the big title on the header*/ 
 {
     position: relative;
-    left: 6.3%;
-    bottom: 7%;
     font-weight: bolder;
     font-size: 48px;
+    display: flex;
+    justify-content: flex-start;
     align-self: center;
+    
 }
 .header-paragraph
 {
@@ -65,7 +67,7 @@ a
     text-decoration: none;
     color: #f9faf8;
 }
-.image-placeholder
+.image-placeholder /*this is the big picture on the header*/
 {
     background-color: grey;
     position: relative;
@@ -112,7 +114,9 @@ a
     border-radius: 35px;
     padding: 50px;
     margin: 20px;
-    background-image: url(images/sasuke.jpeg);
+    background-image: url(images/sasuke-new.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .middle-box-2
 {
@@ -122,6 +126,9 @@ a
     border-radius: 35px;
     padding: 50px;
     margin: 20px;
+    background-image: url(images/itachi.png);
+    background-position: center;
+    background-size: cover;
 }
 .middle-box-3
 {
@@ -131,6 +138,9 @@ a
     border-radius: 35px;
     padding: 50px;
     margin: 20px;
+    background-image: url(images/madara.png);
+    background-position: center;
+    background-size: cover;
 }
 .middle-box-4
 {
@@ -140,4 +150,36 @@ a
     border-radius: 35px;
     padding: 50px;
     margin: 20px;
+    background-image: url(images/hashirama.webp);
+    background-position: center;
+    background-size: cover;
+}
+.box-paragraphs-whole
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 3.5%;
+    justify-content: space-between;
+}
+.box-1-text
+{
+    display: flex;
+    position: relative;
+    right: 5%;
+}
+.box-2-text
+{
+    display: flex;
+
+}
+.box-3-text
+{
+    display: flex;
+
+}
+.box-4-text
+{
+    display: flex;
+
 }
