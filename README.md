@@ -1,5 +1,5 @@
 **NOT FINISHED** <br>
-Hello guys, this is one of the projects that I created while going through "TheOdinProject" course. <br>
+Hi guys, this is one of the mini projects that I had to create while going through "TheOdinProject" course. <br>
 Link to website is below⬇ <br>
 <a href="https://jarifahmad.github.io/TheOdinProject-LandingPage/">Click me</a> <br>
 Down below is what I had to create, but with my own contents. <br>
