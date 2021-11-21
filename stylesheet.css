@@ -1,185 +1,189 @@
-body, html
-{
-    height: 1500px; 
+body {
+    background-color: #FFFFFF;
     padding: 0;
     margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
-.navbar-whole
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    color: #f9faf8;
-    font-size: 18px;
-    white-space: nowrap;
-    word-spacing: 30px;
-}
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
 
+.container {
+    display: flex;
+    flex-direction: column;
 }
-.header
-{
+
+/* Navbar Part */
+
+.navbar {
+    display: flex;
+    color: #F9FAF8;
     background-color: #1F2937;
-    height: 600px; 
-    width: 100%;
-    color: #f9faf8;
-    font-size: 35px;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.header-link {
     display: flex;
-    justify-content: space-around;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
 }
-.header-logo /*this is the "welcome to naruto world"*/
-{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    font-size: 24px;
-}
-.header-title /*this is the big title on the header*/ 
-{
-    position: relative;
-    font-weight: bolder;
-    font-size: 48px;
-    display: flex;
-    justify-content: flex-start;
-    align-self: center;
-    
-}
-.header-paragraph
-{
-    position: relative;
-    right: 18%;
-    top: 10%;
-    align-self: center;
-    font-size: 18px;
-    overflow-wrap: break-word;
-}
-a
-{
+
+.header-link a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
 }
-.image-placeholder /*this is the big picture on the header*/
-{
-    background-color: grey;
-    position: relative;
-    top: 25%;
-    right: 14.7%;
-    height: 50%;
-    width: 35%;
-    align-self: flex-start;
-    background-image: url(images/nartuto-new.jpg);
-    border: 6px solid orangered;
-    border-radius: 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.top-middle
-{
+
+/* Hero Part */
+
+.hero {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.middle-header
-{
-    position: relative;
-    align-self: flex-start;
-}
-.middle-title
-{
-    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
     align-items: center;
     justify-content: center;
-}
-.box-container
-{
-    display: flex;
-    flex-direction: row;
+    padding: 90px;
 }
 
-.middle-box-1
-{
-    width: 120px;
-    height: 100px;
-    border: 6px solid black;
-    border-radius: 35px;
-    padding: 50px;
-    margin: 20px;
-    background-image: url(images/sasuke-new.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.middle-box-2
-{
-    width: 120px;
-    height: 100px;
-    border: 6px solid black;
-    border-radius: 35px;
-    padding: 50px;
-    margin: 20px;
-    background-image: url(images/itachi.png);
-    background-position: center;
-    background-size: cover;
-}
-.middle-box-3
-{
-    width: 120px;
-    height: 100px;
-    border: 6px solid black;
-    border-radius: 35px;
-    padding: 50px;
-    margin: 20px;
-    background-image: url(images/madara.png);
-    background-position: center;
-    background-size: cover;
-}
-.middle-box-4
-{
-    width: 120px;
-    height: 100px;
-    border: 6px solid black;
-    border-radius: 35px;
-    padding: 50px;
-    margin: 20px;
-    background-image: url(images/hashirama.webp);
-    background-position: center;
-    background-size: cover;
-}
-.box-paragraphs-whole
-{
+.hero-cta {
+    flex-basis: 400px;
     display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 3.5%;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
 }
-.box-1-text
-{
-    display: flex;
-    position: relative;
-    right: 5%;
-}
-.box-2-text
-{
-    display: flex;
 
+.hero-cta p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
 }
-.box-3-text
-{
-    display: flex;
 
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
 }
-.box-4-text
-{
-    display: flex;
 
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+}
+
+/* Content Part */
+
+.content {
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Quotation Part */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* Sign Up Part */
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
